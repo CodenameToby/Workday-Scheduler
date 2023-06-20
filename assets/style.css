@@ -1,0 +1,59 @@
+/* Basic CSS for style rules and functionality */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #instruction {
+    font-weight: 80;
+  }
+
+  #currentDay {
+    font-size: xx-large;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .timeblock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .hour {
+    flex: 1;
+  }
+  
+  .event-input {
+    flex: 2;
+  }
+  
+  .save-btn {
+    flex: 1;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+  }
+  
+  /* Past hours are grey, current hour is red, future hours are green. */
+  .present {
+    background-color: #ff6961;
+  }
+  
+  .future {
+    background-color: #77dd77;
+  }
+  
