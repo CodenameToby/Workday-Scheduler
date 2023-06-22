@@ -26,26 +26,30 @@ body {
   }
   
   .timeblock {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
-    text-align: center;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+    margin-left: 2%;
   }
   
   .hour {
     flex: 1;
+    text-align: right;
+    margin-right: 15px;
   }
   
   .event-input {
-    flex: 4;
+    flex: 8;
   }
   
   .save-btn {
     flex: 0;
     margin: 10px;
     align-items: center;
+    color: darkblue;
   }
   
   .past {
