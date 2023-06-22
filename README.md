@@ -1,7 +1,7 @@
 # Workday-Scheduler
 Day planner to help organize a busy day
 
-### [Click for deployed page](https://github.com/CodenameToby/Workday-Scheduler)
+### [Click for deployed page](https://codenametoby.github.io/Workday-Scheduler/)
 
 ## How it works
 The planner will have the current day displayed at the top of a calender. 
