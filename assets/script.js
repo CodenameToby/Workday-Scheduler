@@ -9,14 +9,15 @@ $(document).ready(function() {
     var currentDay = dayjs().format('dddd, MMMM D, YYYY');
     $('#currentDay').text(currentDay);
   
-    // Generate timeblocks for standard business hours
+    // Create timeblocks for standard business hours
     var startTime = 9;
     var endTime = 17;
     var container = $('.container');
   
     for (var hour = startTime; hour <= endTime; hour++) {
       var timeblock = $('<div>').addClass('timeblock');
-      var hourCol = $('<div>').addClass('hour').text(hour + ':00');
+      var hourText = hour > 12 ? hour - 12 + ' PM' : hour + ' AM';
+      var hourCol = $('<div>').addClass('hour').text(hourText);
       var eventInput = $('<textarea>').addClass('event-input');
       var saveBtn = $('<button>').addClass('save-btn').text('Save');
   
